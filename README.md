@@ -1,4 +1,5 @@
-This is a Simple Cacl project using React and Mobx build with [`Vite`](https://vitejs.dev/), [`Vite on Github`](https://github.com/vitejs/vite).
+This is a Simple Calculator project using React and Mobx.
+Build with [`Vite`](https://vitejs.dev/), [`Vite on Github`](https://github.com/vitejs/vite).
 
 ## Getting Started
 
