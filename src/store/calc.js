@@ -32,7 +32,7 @@ class Calc {
   }
 
   calculate() {
-    const newVal = eval(this.calcValue).toFixed(6).toString();
+    const newVal = eval(this.calcValue).toString();
 
     this.setCalcValue(newVal);
   }
