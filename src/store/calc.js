@@ -15,7 +15,7 @@ class Calc {
   }
 
   upDateCalc(value) {
-    if (this.calcValue.length >= 9) return (this.calcValue = "err");
+    if (this.calcValue.length >= 10) return (this.calcValue = "err");
     if (this.calcValue === "err") return;
     if (
       (this.ops.includes(value) && this.calcValue === "") ||
