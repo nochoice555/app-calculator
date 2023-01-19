@@ -1,0 +1,38 @@
+.calc-btn {
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(35, 35, 35, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+.calc-btn:last-child {
+  background: #d72880;
+  grid-column: 3 / -1;
+}
+
+.calc-btn:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border: 3px solid rgba(35, 35, 35, 0.1);
+}
+
+.calc-btn:focus {
+  outline: 1px solid rgba(35, 35, 35, 0.5);
+}
+
+.btnMult {
+  grid-column: 4;
+  grid-row: 4;
+}
+
+.btnMin {
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.btnZero {
+  background: #d72880;
+  grid-column: -5 / -3;
+}

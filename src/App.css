@@ -1,0 +1,39 @@
+#root {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.App {
+  display: grid;
+  grid-auto-rows: auto;
+  backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.34);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(6, 90px);
+  height: 570px;
+  width: 420px;
+  padding: 20px 30px;
+  column-gap: 5px;
+  row-gap: 6px;
+}
+
+.screen {
+  grid-column-end: span 4;
+  backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  font-size: 60px;
+  overflow: auto;
+  text-align: right;
+  padding: 30px;
+}
