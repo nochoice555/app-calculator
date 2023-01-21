@@ -4,9 +4,6 @@ import CalcBtns from "./components/CalcBtn";
 import { observer } from "mobx-react-lite";
 
 const App = observer(() => {
-  // const [isClickt, setIsClickt] = useState(false);
-  // const [result, setResult] = useState("");
-
   const createDigits = () => {
     const digits = [];
 

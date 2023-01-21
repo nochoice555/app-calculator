@@ -3,7 +3,6 @@ import { makeAutoObservable, makeObservable } from "mobx";
 class Calc {
   ops = ["/", "*", "+", "-", "."];
   calcValue = "";
-  result = "";
   totalValue = "";
 
   constructor() {
@@ -25,10 +24,6 @@ class Calc {
     }
 
     this.calcValue = this.calcValue + value;
-
-    if (!this.ops.includes(value)) {
-      this.result = eval(this.calcValue + value).toString();
-    }
   }
 
   calculate() {
